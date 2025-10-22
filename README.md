@@ -1,5 +1,3 @@
-# Cafe-Bistro
-Cafe website
 <!DOCTYPE HTML>
 <html>
 <head>
