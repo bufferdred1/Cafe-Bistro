@@ -5,40 +5,23 @@ body {
     padding: 0;
     background-color: white;
 
-
-
-    h1 { 
-    color: orange;
- }
-
- h2 { 
- color: green;
- 
- }
- 
- h3 {
- color: orange;
- 
- }
-
- h4 { 
- color: green;
- }
- 
- h5 {
- color: orange;
- }
- 
- h6 {
- color: green;
- }
-
-
-
- * {
-    margin: 0;
-    padding: 0;
+header {
+background-color: green;
+color: white;
+padding: 20px 0;
+text-align: center;
 }
+
+nav ul {
+list-style: none;
+padding: 0;
+}
+
+nav ul li{
+display: inline;
+margin: 0 15px;
+}
+
 
 .main{
     display: grid;
@@ -47,21 +30,24 @@ body {
     grid-column-gap: 20px;
     grid-row-gap: 20px 20px;
     
-	width: 100px
+    width: 100px
     background-color: black;
     background-position: center;
     background-size: cover;
 }
 
-.navbar {
-    background-color: white;
-    width: 1200px;
-    height: 75px;
+section {
+margin: left;
+width: auto;
+}
+
+navbar {
+    width: auto;
     margin: auto;
 }
 
 li {
-color: red;
+color: black;
 }
 
 
@@ -72,31 +58,11 @@ color: green;
 
 
 ol p {
-color: white;
+color: black;
 
 }
 
 
-.icon {
-    width: 200px;
-    float: left;
-    height: 70px;
-}
-
-.logo {
-    color: green;
-    font-size: 35px;
-    font-family: Ariel;
-    padding-left: 20px;
-    float: left;
-    padding-top: 10px
-}
-
-.menu {
-    width: 400px;
-    float: left;
-    height: 70px;
-}
 
 ul { 
     float: left;
